@@ -11,33 +11,25 @@ Este estudo visa investigar os fatores preditivos associados ao perfil de respos
 ## Objetivos
 
 ### Objetivo Geral
-Investigar os fatores preditivos que influenciam o perfil de resposta imune humoral anti-SARS-CoV-2 em doadores de sangue, com foco nas variáveis clínicas, sociodemográficas e imunológicas.
+Investigar fatores preditivos associados ao perfil de resposta imune humoral anti-SARS-CoV-2 em doadores de sangue do município de Fortaleza, abrangendo o histórico da doença natural, fatores sociodemográficos, 
+imunizações contra COVID-19 e sustentabilidade nos níveis de anticorpos.
 
 ### Objetivos Específicos
-- Avaliar o histórico da doença natural da COVID-19 entre os doadores de sangue.
-- Identificar e caracterizar os fatores sociodemográficos que impactam a resposta imune, como idade, sexo, etnia e comorbidades.
-- Analisar o impacto das imunizações contra a COVID-19 na resposta imune humoral.
-- Investigar a sustentabilidade dos níveis de anticorpos contra SARS-CoV-2 ao longo do tempo, após a vacinação e infecção.
-- Comparar a eficiência dos diferentes esquemas de vacinação em relação à resposta imune.
+1) Rastrear diferentes perfis de resposta imunológica anti-SARS-CoV-2, a partir da base de dados de um inquérito multicêntrico de soro-vigilância para COVID-19 (2020 a 2024)
+   e sua representatividade em relação a população de doadores do sistema SBS e população de Fortaleza;
+2) Estratificar participantes com base na correlação entre anticorpos IgG anti-N (resposta à infecção natural) e IgG anti-S (resposta global a vacina e infecção natural)
+   com dados sociodemográficos, histórico de vacinação e período de circulação de variantes;
+3) Comparar grupos prospectivos de doadores para avaliação dos níveis de produção e sustentabilidade de anticorpos anti-SARS-CoV-2, correlacionando-os com o histórico de infecções,
+   consequências da COVID-19, exames realizados e provável identificação de perfis de imunodeficiência;
+4) Identificar potenciais variáveis explanatórias e customizar soluções analíticas e de modelagem de dados associadas com diferentes perfis de resposta imunológica anti-SARS-CoV-2.
 
-## Metodologia
 
-Este estudo será conduzido com a coleta de dados de doadores de sangue do município de Fortaleza, Ceará, no período de 2023-2024. A metodologia envolverá a análise de variáveis clínicas e imunológicas, coleta de amostras sanguíneas para testes de anticorpos, e a aplicação de questionários para caracterizar fatores sociodemográficos e históricos de exposição à COVID-19.
-
-Além disso, serão empregados métodos estatísticos avançados para modelagem dos fatores preditivos da resposta imune, incluindo regressão logística, análise de sobrevivência e técnicas de aprendizado de máquina para avaliação de correlações entre variáveis.
-
-## Contribuições
-
-O estudo contribuirá para o entendimento da resposta imune humoral à COVID-19 em doadores de sangue, uma população estratégica para garantir a segurança do fornecimento de sangue em tempos de pandemia. Os resultados serão relevantes para políticas públicas de saúde, estratégias de vacinação e a melhoria dos protocolos de triagem para doação de sangue.
+## Desenho experimental
+![image](https://github.com/user-attachments/assets/45687cf4-109f-41ec-af61-edc05e39bf38)
 
 ## Tecnologias e Ferramentas Utilizadas
 
 - **Linguagens:** Python, R
-- **Ferramentas Estatísticas e de Análise:** Pandas, Scikit-learn, Statsmodels, RStudio
-- **Plataformas de Armazenamento e Processamento de Dados:** GitHub, Docker
-- **Banco de Dados:** MySQL
-- **Bibliotecas de Bioinformática:** Biopython
+- **Ferramentas Estatísticas e de Análise:** Pandas, Scikit-learn, RStudio
+- **Plataformas de Armazenamento e Processamento/Modificação de Dados:** RedCap, GitHub, Biorender
 
-## Resultados Esperados
-
-Espera-se identificar um perfil detalhado dos fatores preditivos da resposta imune em doadores de sangue, com insights sobre a relação entre a imunização contra COVID-19 e a persistência de anticorpos. Esses resultados poderão informar melhores práticas para a triagem de doadores e aprimorar a resposta imunológica de indivíduos expostos ao vírus.
